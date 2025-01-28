@@ -7,8 +7,8 @@ from google.cloud import datastore
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # For session management
 
-CLIENT_ID = '489045172724-cco4lbpsjn2mbh3hiqmk8431rc4nhdjb.apps.googleusercontent.com'
-CLIENT_SECRET = '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'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 REDIRECT_URI =  'https://assignment4-renew.uw.r.appspot.com/oauth'
 AUTHORIZATION_URL = 'https://accounts.google.com/o/oauth2/v2/auth'
 TOKEN_URL = 'https://oauth2.googleapis.com/token'
