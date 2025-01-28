@@ -20,9 +20,9 @@ results = list(query.fetch())
 for entity in results:  
     client.delete(entity.key)
 
-CLIENT_ID = 'KGAku915F74tc4Lp2L5HyDs0K7zILFnK'
-CLIENT_SECRET = 'vCi5NS_5PtUAR118arw6Vqe2xQc7FBpgbk7i7-e5Oy21aSn0c8ElsQZJxvDNgVBG'
-DOMAIN = 'dev-27m0fz7aferqa705.us.auth0.com'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+DOMAIN = ''
 
 ALGORITHMS = ["RS256"]
 
